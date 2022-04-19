@@ -1,0 +1,40 @@
+.header{
+    text-align: center;
+}
+
+.leftDiv{
+    padding: 10px;
+    width: 19%;
+    float: left;
+}
+
+.section{
+    width: 80%;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+
+.sectionRow{
+    display: table-row;
+}
+
+.article{
+    margin: 1rem;
+    border: 2px solid rgba(247, 65, 41, 0.781);
+    text-align: center;
+}
+
+.article span{
+    display: block;
+}
+
+@media only screen and (max-width: 600px) {
+    .section{
+        width: 100%;
+        grid-template-columns: 100%;
+    }
+
+    .leftDiv{
+        width: 100%;
+    }
+}

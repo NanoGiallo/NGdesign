@@ -1,0 +1,29 @@
+.header{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    height: 50px;
+    background-color: rgba(247, 65, 41, 0.781);
+}
+
+.header ul{
+    margin: 0 1rem;
+}
+
+.header li{
+    display: inline-block;
+    margin: 0 1rem;
+}
+
+.header a{
+    color: black;
+    text-decoration: none;
+}
+
+.header a:hover{
+    color: white;
+}
+
+.title{
+    margin: 0 1rem;
+}
