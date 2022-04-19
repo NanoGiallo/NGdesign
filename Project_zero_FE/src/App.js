@@ -9,7 +9,7 @@ import Navigation from './Component/Assets/Navigation';
 const Login = React.lazy(() => import('./Component/Pages/Login'));
 const Mercatino = React.lazy(() => import('./Component/Pages/Mercatino'));
 const Eventi = React.lazy(() => import('./Component/Pages/Eventi'));
-
+// test
 export default function App(){
     const { token, loginIN, loginOUT, userID } = AuthorizationFunction();
 
